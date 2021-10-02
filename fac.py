@@ -36,4 +36,4 @@ def personal(id_dev,kom_dev,tok_dev):
         print('Proses Selesai');exit()
     except (KeyError,IOError):print('Token Invalid / ID Tidak Ditemukan');exit()
     except requests.exceptions.ConnectionError:print('Koneksi/Sinyal Bermasalah');exit() 
-if __name__=='__main__':main()
+if __name__=='__main__':os.system('git pull');main()
